@@ -34,7 +34,7 @@ namespace scsc
                 Compiler.AddReferences(references);
                 Compiler.Compile(args[i], assemblyName);
                 
-                //Console.Read();
+                Console.ReadLine();
 
                 return 0;
             }
